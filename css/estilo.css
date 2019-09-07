@@ -21,7 +21,7 @@ body{
 }
 
 main{
-    height: 1093px;
+    height: 793px;
 }
 
 .slogan{
@@ -47,6 +47,11 @@ main{
 .cabecalho ul li{
     display: inline;
     margin-left: 92px;
+}
+
+.cabecalho ul li :hover{
+    display: inline;
+    text-decoration: underline;
 }
 
 a{
