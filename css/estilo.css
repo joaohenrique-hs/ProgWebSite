@@ -2,13 +2,42 @@
     margin: 0px;
     padding: 0px;
 }
+
 html{
     width: 100%;
+    background-color: #555;
 }
 
 body{
-    width: 80%;
-    margin: 0 auto;
-    height: 1000px;
-    background-color: blue;
+    width: 1093px;
+    margin-left: 137px;
+    height: 1093px;
+    background-color: white;
+}
+
+.foto{
+    margin-left: 30px; 
+    margin-top: 50px;
+    height: 216px;
+    width: 384px;
+    float: left;
+}
+
+main{
+    display: inline;
+}
+
+.cabecalho{
+    text-align: center;
+    font-size: 30px;
+}
+
+.intro{
+    margin-right: 30px;
+    text-align: justify; 
+    width: 620px;
+    float: right;
+    margin-top: 50px;
+    color: rgb(49, 49, 49);
+    font-size: 18px;
 }
