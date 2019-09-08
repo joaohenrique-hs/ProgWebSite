@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background-color: #dadada; 
+    background-color: #e7e7e7; 
 }
 
 .foto{
@@ -49,7 +49,7 @@ header{
     font-weight: 550;
     font-size: 16px;
     position: relative;
-    top: 30px;
+    top: 35px;
     left: 430px;
 }
 
@@ -64,7 +64,7 @@ header{
     font-weight: 550;
     font-size: 16px;
     position: relative;
-    top: 30px;
+    top: 35px;
     left: 430px;
 }
 
@@ -73,13 +73,13 @@ header{
     height: 540px;
     width: 960px;
     float: left;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 main{
     height: 793px;
     position: relative;
-    top: 45px;
+    top: 30px;
 }
 
 .slogan{
@@ -88,8 +88,10 @@ main{
 }
 
 .Ford{
-    height: 60px;
-    width: 60px;
+    position: relative;
+    top: 23px;
+    height: 70px;
+    width: 70px;
 }
 
 .cabecalho{
@@ -98,23 +100,31 @@ main{
     height: 60px;
     font-size: 25px;
     background-color: #252525; 
-
 }
 
-.cabecalho ul{
-    float: inherit;
+.cabecalho a{
     position: relative;
-    top: 13px;
+    float: left;
+    width: 25%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
 }
 
-.cabecalho ul li{
+.list :hover{
+    transition: all 0.5s;
     display: inline;
-    margin-left: 130px;
+    background-color: black;
 }
 
-.cabecalho ul li :hover{
+a:hover{
     display: inline;
-    text-decoration: underline;
+    background-color: #3e4aeb;
+}
+
+.ativo{
+    display: inline;
+    background-color: #3e4aeb;
 }
 
 a{
@@ -124,7 +134,7 @@ a{
 
 .imagens{
     position: relative;
-    top: 30px;
+    top: 20px;
     float: left;
     width: 414px;
     height: 1000px;
@@ -133,7 +143,7 @@ a{
 .intro{
     position: relative;
     right: 30px;
-    top: 30px;
+    top: 20px;
     text-align: justify; 
     width: 620px;
     float: right;
@@ -142,6 +152,16 @@ a{
 }
 
 footer{
+    border-top: solid 7px #616161;
     height: 250px;
-    background-color: #313131;
+    background-color: #252525;
+}
+
+.descricao{
+    position: relative;
+    float: right;
+    width: 650px;
+    text-align: justify; 
+    color: #313131;
+    font-size: 18px;
 }
