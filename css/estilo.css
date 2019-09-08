@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background-color: #b9b8b9; 
+    background-color: #dadada; 
 }
 
 .foto{
@@ -22,6 +22,50 @@ header{
     height: 216px;
     width: 384px;
     float: left;
+}
+
+.lancamentos{
+    position: relative;
+    top: 8px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.botao {
+    border: none;
+    background-color: #3e4aeb;
+    color: white;
+    cursor: pointer;
+    padding: 10px 83px;
+    font-weight: 550;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    left: 430px;
+}
+
+.botao:hover{
+    border-style: solid;
+    border-color: #3e4aeb;
+    border-width: 3px;
+    background-color: white;
+    color: #3e4aeb;
+    cursor: pointer;
+    padding: 7px 80px;
+    font-weight: 550;
+    font-size: 16px;
+    position: relative;
+    top: 30px;
+    left: 430px;
+}
+
+.capa{
+    margin-left: 67px; 
+    height: 540px;
+    width: 960px;
+    float: left;
+    margin-top: 24px;
 }
 
 main{
@@ -40,22 +84,23 @@ main{
 }
 
 .cabecalho{
-    margin-top: 10px;
-    padding-top: 10px;
-    height: 40px;
+    position: relative;
+    top: 12px;
+    height: 60px;
     font-size: 25px;
-    background-color: black; 
+    background-color: #252525; 
 
 }
 
 .cabecalho ul{
     float: inherit;
-    
+    position: relative;
+    top: 13px;
 }
 
 .cabecalho ul li{
     display: inline;
-    margin-left: 128px;
+    margin-left: 130px;
 }
 
 .cabecalho ul li :hover{
@@ -64,10 +109,9 @@ main{
 }
 
 a{
-    color: white;
+    color: #f3f3f3;
     text-decoration: none;
 }
-
 
 .intro{
     margin-right: 30px;
