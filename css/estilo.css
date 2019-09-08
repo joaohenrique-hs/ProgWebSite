@@ -186,3 +186,40 @@ footer{
     height: 345px;
     width: 480;
 }
+
+.mapa{
+    position: relative;
+    left: -10px;
+    top: 100px;
+    height: 345px;
+    width: 480;
+}
+
+.informacoes li, .navegacao li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.informacoes{
+    display: inline-block;
+    margin-left: 300px;
+    margin-top:30px;
+}
+
+.navegacao{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+h2{
+    margin-top: 20px;
+    color: white;
+}
+
+#direitos{
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+}
+
+
