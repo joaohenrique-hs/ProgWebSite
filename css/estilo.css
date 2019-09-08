@@ -137,7 +137,6 @@ a{
     top: 20px;
     float: left;
     width: 414px;
-    height: 1000px;
 }
 
 .intro{
@@ -172,7 +171,7 @@ footer{
     position: relative;
     float: right;
     width: 520px;
-    text-align: justify; 
+    text-align: center; 
     color: #313131;
     font-size: 20px;
     top: 20px;
@@ -189,8 +188,8 @@ footer{
 
 .mapa{
     position: relative;
-    left: -10px;
-    top: 100px;
+    left: -30px;
+    top: 53px;
     height: 345px;
     width: 480;
 }
