@@ -160,6 +160,7 @@ footer{
 .descricao{
     position: relative;
     float: right;
+    top: 20px;
     right: 30px;
     width: 620px;
     text-align: justify; 
