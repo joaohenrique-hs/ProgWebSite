@@ -14,7 +14,7 @@ body{
 }
 
 header{
-    background-color: #555; 
+    background-color: #b9b8b9; 
 }
 
 .foto{
@@ -55,7 +55,7 @@ main{
 
 .cabecalho ul li{
     display: inline;
-    margin-left: 92px;
+    margin-left: 128px;
 }
 
 .cabecalho ul li :hover{
