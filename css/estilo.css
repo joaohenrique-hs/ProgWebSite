@@ -223,14 +223,15 @@ footer{
 }
 
 .informacoes{
-    display: inline-block;
-    margin-left: 300px;
+    float: right;
     margin-top:30px;
+    margin-right: 100px;
 }
 
 .navegacao{
     display: inline-block;
     margin-left: 100px;
+    margin-top:30px;
 }
 
 h2{
