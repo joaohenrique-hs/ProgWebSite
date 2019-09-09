@@ -114,12 +114,14 @@ main{
 .list :hover{
     transition: all 0.5s;
     display: inline;
+    text-decoration: none;
     background-color: black;
 }
 
 a:hover{
     display: inline;
-    background-color: #3e4aeb;
+    text-decoration: underline;
+    background-color: black;
 }
 
 .ativo{
@@ -150,12 +152,6 @@ a{
     font-size: 18px;
 }
 
-footer{
-    border-top: solid 7px #616161;
-    height: 250px;
-    background-color: #252525;
-}
-
 .descricao{
     position: relative;
     float: right;
@@ -184,6 +180,22 @@ footer{
     top: 20px;
     height: 345px;
     width: 480;
+}
+
+footer{
+    border-top: solid 7px #616161;
+    height: 250px;
+    background-color: #252525;
+}
+
+.rodape a{
+    display: inline;
+}
+
+.rodape a:hover{
+    display: inline;
+    text-decoration: underline;
+    background: none;
 }
 
 .mapa{
@@ -220,5 +232,6 @@ h2{
     margin-left: 10px;
     color: white;
 }
+
 
 
