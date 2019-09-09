@@ -196,6 +196,7 @@ footer{
     display: inline;
     text-decoration: underline;
     background: none;
+    font-weight: 550;    
 }
 
 .mapa{
