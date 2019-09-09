@@ -120,7 +120,7 @@ main{
 
 a:hover{
     display: inline;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: black;
 }
 
