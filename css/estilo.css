@@ -8,13 +8,14 @@ html{
 }
 
 body{
-    width: 1093px;
-    margin-left: 137px;
+    width: 80%;
+    margin-left: 10%;
     background-color: white;
 }
 
 header{
     background-color: #e7e7e7; 
+    width: 100%;
 }
 
 .ka{
@@ -96,8 +97,8 @@ main{
 .Ford{
     position: relative;
     top: 23px;
-    height: 70px;
-    width: 70px;
+    height: 7%;
+    width: 7%;
 }
 
 .cabecalho{
